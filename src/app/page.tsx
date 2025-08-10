@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 import { Dancing_Script } from 'next/font/google';
 import Header from '../../components/Header';
 import Countdown from '../../components/Countdown';
-import MusicToggle from '../../components/MusicToggle';
 import messages from '@/data/message';
 import ImageDisplay from '../../components/ImageDisplay';
 import BirthdayMessage from '../../components/BirthdayMessage';
@@ -48,12 +47,6 @@ export default function HomePage() {
 
       <div className="animate-fade-in-up delay-1000 transition-transform duration-2000 ease-in-out">
         <ImageDisplay index={index} />
-      </div>
-
-
-      <div className="animate-fade-in-up delay-1000 transition-transform duration-2000 ease-in-out">
-        <MusicToggle />
-
       </div>
       <div>
        <div className="animate-fade-in-up delay-1500 transition-transform duration-2000 ease-in-out">
